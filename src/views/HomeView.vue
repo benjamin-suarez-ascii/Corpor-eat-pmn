@@ -14,7 +14,7 @@
       </div>
       <div class="feature-card">
         <h3>💳 Pago Electrónico</h3>
-        <p>Integración con Stripe y PayPal para pagos seguros</p>
+        <p>Integración con Webpay para pagos seguros</p>
       </div>
       <div class="feature-card">
         <h3>👥 Control de Aforo</h3>
