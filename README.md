@@ -28,18 +28,3 @@ Prototipo funcional de una aplicación para que empleados de empresas reserven m
 | Vercel | Despliegue automático |  
 
 ---
-
-## **📂 Estructura del Proyecto**  
-src/
-├── assets/
-├── components/
-│ └── NavBar.vue
-├── router/
-│ └── index.js
-├── views/
-│ ├── HomeView.vue
-│ ├── LoginView.vue
-│ ├── ReservationsView.vue
-│ └── MakeReservationView.vue
-├── App.vue
-└── main.js
