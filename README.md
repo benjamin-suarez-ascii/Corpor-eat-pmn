@@ -14,7 +14,7 @@ Prototipo funcional de una aplicación para que empleados de empresas reserven m
 - 4 vistas navegables (Home, Login, Mis Reservas, Hacer Reserva)  
 - Barra de navegación interactiva  
 - Simulación de reservas y autenticación  
-- Diseño responsive  
+- Diseño responsivo  
 
 ---
 
