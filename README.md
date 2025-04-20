@@ -1,29 +1,32 @@
-# corpor-eat-pmn
+# 🍽️ CorporEat - PMN (Prototipo Mínimo Navegable)  
 
-This template should help get you started developing with Vue 3 in Vite.
+**Sistema de Gestión de Reservas para Comedores Corporativos**  
 
-## Recommended IDE Setup
+---
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## **🚀 Demo en Vivo**  
+🔗 [Ver despliegue en Vercel](https://corpor-eat-pmn.vercel.app)  
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## **📌 Descripción**  
+Prototipo funcional de una aplicación para que empleados de empresas reserven mesas en comedores corporativos. Desarrollado con **Vue 3 + Vite**, incluye:  
+- 4 vistas navegables (Home, Login, Mis Reservas, Hacer Reserva)  
+- Barra de navegación interactiva  
+- Simulación de reservas y autenticación  
+- Diseño responsive  
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## **🛠️ Tecnologías**  
+| Tecnología | Uso |  
+|------------|-----|  
+| Vue 3 | Framework frontend |  
+| Vue Router | Navegación SPA |  
+| Vite | Bundler y servidor de desarrollo |  
+| CSS3 | Estilos personalizados |  
+| Vercel | Despliegue automático |  
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## **📂 Estructura del Proyecto**  
