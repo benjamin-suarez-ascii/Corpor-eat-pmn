@@ -1,20 +1,26 @@
 # 🍽️ CorporEat - PMN (Prototipo Mínimo Navegable)  
+![Vue.js](https://img.shields.io/badge/Vue.js-3.x-42b983?logo=vuedotjs)
+![License](https://img.shields.io/badge/Licencia-MIT-green)
+![Status](https://img.shields.io/badge/Estado-En%20Desarrollo-orange)
 
 **Sistema de Gestión de Reservas para Comedores Corporativos**  
 
 ---
 
-## **🚀 Demo en Vivo**  
+## 🚀 Demo en Vivo  
 🔗 [Ver despliegue en Vercel](https://corpor-eat-pmn.vercel.app)  
+🔑 Credenciales de prueba:  
+- **Admin:** `admin@corp.com` / `admin123`  
+- **Usuario:** `user@corp.com` / `user123`
 
 ---
 
-## **📌 Descripción**  
-Prototipo funcional de una aplicación para que empleados de empresas reserven mesas en comedores corporativos. Desarrollado con **Vue 3 + Vite**, incluye:  
-- 4 vistas navegables (Home, Login, Mis Reservas, Hacer Reserva)  
-- Barra de navegación interactiva  
-- Simulación de reservas y autenticación  
-- Diseño responsivo  
+## ✨ Características  
+✅ Funcionalidades implementadas:  
+- Autenticación con roles (admin/user)  
+- Reservas con selección de fecha/hora  
+- Panel administrativo básico  
+- Diseño responsivo mobile-first  
 
 ---
 
