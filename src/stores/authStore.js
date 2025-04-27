@@ -1,4 +1,3 @@
-// src/stores/authStore.js
 import { defineStore } from 'pinia'
 import { ref } from 'vue'
 
@@ -7,7 +6,6 @@ export const useAuthStore = defineStore('auth', () => {
   const loading = ref(false)
   const error = ref(null)
 
-  // Usuarios pre-registrados
   const registeredUsers = ref([
     { 
       email: 'admin@corp.com', 
@@ -25,7 +23,6 @@ export const useAuthStore = defineStore('auth', () => {
     }
   ])
 
-  // Datos simulados para administración
   const reservationsData = ref([
     {
       id: 1,

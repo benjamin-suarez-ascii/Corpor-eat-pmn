@@ -1,4 +1,3 @@
-<!-- src/views/AdminView.vue -->
 <template>
     <div class="admin-view">
       <h1>Panel de Administración</h1>
