@@ -28,3 +28,31 @@ Prototipo funcional de una aplicación para que empleados de empresas reserven m
 | Vercel | Despliegue automático |  
 
 ---
+
+## **🗺️ Diagrama de Navegación**
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#42b983'}}}%%
+flowchart TB
+    A[🏠 Inicio] -->|Todos| B[🔑 Login/Registro]
+    A -->|Autenticado| C[📅 Mis Reservas]
+    A -->|Autenticado| D[➕ Hacer Reserva]
+    A -->|Admin| E[🛠️ Panel Admin]
+    B -->|Login exitoso| A
+    C -->|Ver detalles| F[📋 Detalle Reserva]
+    C -->|Cancelar| A
+    D -->|Confirmar| G[💳 Pago Simulado]
+    G -->|Éxito| C
+    E --> H[👥 Usuarios]
+    E --> I[📊 Reportes]
+    E --> J[⚙️ Configuración]
+    
+    style A fill:#42b983,color:white
+    style B fill:#2c3e50,color:white
+    style C fill:#2c3e50,color:white
+    style D fill:#2c3e50,color:white
+    style E fill:#ff4444,color:white
+    style F fill:#f0ad4e,color:black
+    style G fill:#f0ad4e,color:black
+    style H fill:#5bc0de,color:black
+    style I fill:#5bc0de,color:black
+    style J fill:#5bc0de,color:black
